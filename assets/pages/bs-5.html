@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="../style/bs-home.css">
+        <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="../plugin/fancybox/jquery.fancybox-1.3.4.css">
+        <link rel="shortcut icon" href="../images/anh_p2.png" type="image/x-icon">
+    <style>
+        .border-item {
+            border-top: 1px solid lightgrey;
+            border-bottom: 1px solid lightgrey;
+        }
+
+        .border {
+            background-color: #f9f9f9;
+        }
+
+        .info {
+            display: none;
+        }
+
+        .box-1:hover p {
+            color: #dc3545;
+        }
+
+        .p-style {
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+
+        .p-style:hover {
+            border-bottom: 2px solid #00b4d8;
+            transition: .4 s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="details ">
+        <div class="container">
+            <div class="navbar navbar-expand-sm navbar-expand-lg">
+                <ul class="detail-1">
+                    <li><a href=""><i style="padding-right: 7px;" class="fas fa-phone-alt"></i>01783213329</a></li>
+                    <li><a href=""><i style="padding-right: 7px;" class="fas fa-map-marker-alt"></i>1010 Moon ave, New
+                            York,
+                            NY</a> </li>
+                </ul>
+                <ul class="detail-2">
+                    <li><a href="bs-login.html"><i style="padding-right: 7px;" class="fas fa-user"></i>Login</a></li>
+                    <li><a href="bs-register.html"><i style="padding-right: 7px;"
+                                class="fas fa-user-plus"></i>Register</a></li>
+                    <li>
+                        <select style="background-color:#1d3557;color:#fff;border: none">
+                            <option value="AU">Aus 🇦🇺</option>
+                            <option value="DE">Ger 🇩🇪</option>
+                            <option value="AO">Ang 🇦🇴</option>
+                            <option value="KW">Kuw 🇰🇼</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select style="background-color:#1d3557;color:#fff;border: none">
+                            <option value="EUR">💶 EUR</option>
+                            <option value="GBP">💷 GBP</option>
+                            <option value="USD">💵 USD</option>
+                            <option value="YEN">💴 YEN</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div style="background-color:#457b9d" class="nav-item">
+        <div class="container">
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <a class="navbar-brand" href="bs-home.html"><img
+                        src="http://remtsoy.com/tf_templates/traveler/demo_v1_7/img/logo-invert.png" alt=""></a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="bs-home.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Pages<i
+                                    class="pl-1 fas fa-caret-down"></i></a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Action 1</a>
+                                <a class="dropdown-item" href="#">Action 2</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control form-rp mr-sm-2" type="text" placeholder="Search">
+                    </form>
+                    <div style="position: relative;display:inline-block;" class="site-nav-item site-nav-cart mini-cart">
+                        <ul>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false"><img style="width: 40px;color:#fff"
+                                        src="https://salt.tikicdn.com/ts/upload/40/44/6c/b80ad73e5e84aeb71c08e5d8d438eaa1.png"
+                                        alt=""></a>
+                                <span class="number">6</span>
+                                <div class="dropdown-menu text-center" aria-labelledby="dropdownId">
+                                    <a class="dropdown-item d-flex" href="#">
+                                        <img style="width: 50px;"
+                                            src="http://themesvila.com/html-templates/laveria/assets/img/special-package/1.jpg"
+                                            alt="">
+                                        <p style="color:#dc3545" class="pl-3 pt-3">$300</p>
+                                    </a>
+                                    <a class="dropdown-item d-flex" href="#">
+                                        <img style="width: 50px;"
+                                            src="http://themesvila.com/html-templates/laveria/assets/img/special-package/2.jpg"
+                                            alt="">
+                                        <p style="color:#dc3545" class="pl-3 pt-3">$400</p>
+                                    </a>
+                                    <a class="dropdown-item d-flex" href="#">
+                                        <img style="width: 50px;"
+                                            src="http://themesvila.com/html-templates/laveria/assets/img/special-package/3.jpg"
+                                            alt="">
+                                        <p style="color:#dc3545" class="pl-3 pt-3">$500</p>
+                                    </a>
+                                    <a class="dropdown-item d-flex" href="#">
+                                        <img style="width: 50px;"
+                                            src="http://themesvila.com/html-templates/laveria/assets/img/special-package/4.jpg"
+                                            alt="">
+                                        <p style="color:#dc3545" class="pl-3 pt-3">$600</p>
+                                    </a>
+                                    <a class="dropdown-item d-flex" href="#">
+                                        <img style="width: 50px;"
+                                            src="http://themesvila.com/html-templates/laveria/assets/img/special-package/5.jpg"
+                                            alt="">
+                                        <p style="color:#dc3545" class="pl-3 pt-3">$700</p>
+                                    </a>
+                                    <a class="dropdown-item d-flex pb-3" href="#">
+                                        <img style="width: 50px;"
+                                            src="http://themesvila.com/html-templates/laveria/assets/img/special-package/6.jpg"
+                                            alt="">
+                                        <p style="color:#dc3545" class="pl-3 pt-3">$800</p>
+                                    </a>
+                                    <a class="btn btn-danger pl-4 pr-4" href="bs-cart.html">View All</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="main mt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="item">
+                        <a id="single_image" href="https://sagawavietnam.com/wp-content/uploads/2019/08/SWEDEN.jpg"><img
+                                class="w-100" src="https://sagawavietnam.com/wp-content/uploads/2019/08/SWEDEN.jpg"
+                                alt=""></a>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-3">
+                            <div class="item">
+                                <a id="single_image"
+                                    href="https://a-static.besthdwallpaper.com/hamnoy-na-uy-5k-hinh-nen-1280x768-52625_13.jpg">
+                                    <img class="w-100" style="height:80px"
+                                        src="https://a-static.besthdwallpaper.com/hamnoy-na-uy-5k-hinh-nen-1280x768-52625_13.jpg"
+                                        alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item">
+                                <a id="single_image"
+                                    href="https://upload.wikimedia.org/wikipedia/commons/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg"><img
+                                        class="w-100" style="height:80px"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg"
+                                        alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item">
+                                <a id="single_image"
+                                    href="https://blog.ling-go.net/wp-content/uploads/2020/08/translate-bahasa-italia-ke-indonesia.jpg"><img
+                                        class="w-100" style="height:80px"
+                                        src="https://blog.ling-go.net/wp-content/uploads/2020/08/translate-bahasa-italia-ke-indonesia.jpg"
+                                        alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item">
+                                <a id="single_image"
+                                    href="https://sagawavietnam.com/wp-content/uploads/2019/08/SWEDEN.jpg"><img
+                                        class="w-100" style="height:80px"
+                                        src="https://sagawavietnam.com/wp-content/uploads/2019/08/SWEDEN.jpg"
+                                        alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 pl-5">
+                    <h2 style="color:#dc3545">Sydney</h2>
+                    <div class="d-flex">
+                        <div style="font-size: 15px;color:#337ab7" class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p class="pl-2 pr-2 pt-1" style="font-size:10px">(109) Votes</p>
+                        <p style="font-size:13px;color:blue">109 Customers Review</p>
+                    </div>
+                    <div class="border-item">
+                        <div class="d-flex pt-4 pb-3">
+                            <h4 style="color:#dc3545">$100 (One night)</h4>
+                            <p style="font-size:13px" class="pt-2 pl-2">*included tax</p>
+                        </div>
+                        <div class="buy">
+                            <div class="d-flex">
+                                <button class="btn btn-danger pt-2 pb-2 pl-4 pr-4">Buy it Now</button>
+                                <button class="btn btn-success pt-2 pb-2 pl-4 pr-4 ml-1">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div style="font-size: 13px" class="d-flex mt-4 pt-1 pb-4 text-center">
+                            <div class="pt-3 pl-3 pr-3 border">
+                                <p>Benefit</p>
+                                <p style="color:blue">Breakfast included</p>
+                            </div>
+                            <div class="pt-3 pl-3 pr-3 border">
+                                <p>Others</p>
+                                <p style="color:blue">Transports and Accommodations</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex box pt-4 pb-4">
+                        <div class="box-1">
+                            <span class="p-style item-click" data-s="#i1">Details</span>
+                        </div>
+                        <div class="box-1">
+                            <span class="p-style ml-5 mr-5 item-click" data-s="#i2">Reviews</span>
+                        </div>
+                        <div class="box-1">
+                            <span class="p-style item-click" data-s="#i3">Specifications</span>
+                        </div>
+                    </div>
+                    <div class="drop-info">
+                        <div class="info" id="i1">
+                            <p style="font-weight: bold;">A Beatiful Place</p>
+                            <p style="font-size:13px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+                                cupiditate voluptate
+                                harum assumenda reiciendis sed ratione quas delectus quos laudantium eaque, dolores
+                                nesciunt itaque facilis necessitatibus unde. Ullam quo sapiente ex explicabo dolorum
+                                nobis unde, ipsa minus corporis ducimus temporibus!</p>
+                        </div>
+                        <div class="info" id="i2">
+                            <div style="background-color:#fdfdfd;border:1px solid #e3e3e3" class="form-group">
+                                <div class="p-4">
+                                    <textarea class="form-control" name="" id="" rows="3"
+                                        placeholder="Write a review"></textarea>
+                                    <div class="d-flex justify-content-between pb-2">
+                                        <div class="fl-1">
+                                            <a class="pr-4" href=""><i class="fa fa-location-arrow"></i></a>
+                                            <a class="pr-4" href=""><i class="fa fa-microphone"></i></a>
+                                            <a class="pr-4" href=""><i class="fa fa-camera"></i></a>
+                                            <a href=""><i class="fa fa-file"></i></a>
+                                        </div>
+                                        <div class="fl-1">
+                                            <button class="btn btn-danger">Submit</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="comments">
+                                <ul>
+                                    <li class="pb-4">
+                                        <div class="d-flex justify-content-start">
+                                            <div class="fl-1 pr-2">
+                                                <img style="width: 60px;"
+                                                    src="https://www.bootdey.com/img/Content/avatar/avatar1.png" alt="">
+                                            </div>
+                                            <div class="fl-1">
+                                                <span style="font-size:11px">Melimee 9 months ago</span>
+                                                <p style="font-size: 14px;margin-bottom: 0 !important;">Lorem ipsum
+                                                    dolor sit amet consectetur
+                                                    adipisicing
+                                                    elit. A nesciunt perferendis ab deleniti dolorem ad aperiam
+                                                    similique, sit eaque modi.
+                                                </p>
+                                                <div class="icon-comments">
+                                                    <span style="font-size: 14px;" class="pr-2"><i
+                                                            class="pr-1 fas fa-reply"></i>Reply</span>
+                                                    <span style="font-size: 14px;">Share<i
+                                                            class="pl-1 fas fa-share"></i></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="pb-4">
+                                        <div class="d-flex justify-content-start">
+                                            <div class="fl-1 pr-2">
+                                                <img style="width: 60px;"
+                                                    src="https://a.disquscdn.com/1631826434/images/noavatar92.png"
+                                                    alt="">
+                                            </div>
+                                            <div class="fl-1">
+                                                <span style="font-size:11px">092Cds 9 months ago</span>
+                                                <p style="font-size: 14px;margin-bottom: 0 !important;">Lorem ipsum
+                                                    dolor sit amet consectetur
+                                                    adipisicing
+                                                    elit. A nesciunt perferendis ab deleniti dolorem ad aperiam
+                                                    similique, sit eaque modi.
+                                                </p>
+                                                <div class="icon-comments">
+                                                    <span style="font-size: 14px;" class="pr-2"><i
+                                                            class="pr-1 fas fa-reply"></i>Reply</span>
+                                                    <span style="font-size: 14px;">Share<i
+                                                            class="pl-1 fas fa-share"></i></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="pl-5 pb-4">
+                                        <div class="d-flex justify-content-start">
+                                            <div class="fl-1 pr-2">
+                                                <img style="width: 60px;"
+                                                    src="https://www.bootdey.com/img/Content/avatar/avatar1.png" alt="">
+                                            </div>
+                                            <div class="fl-1">
+                                                <span style="font-size:11px">Melimee 9 months ago</span>
+                                                <p style="font-size: 14px;margin-bottom: 0 !important;">Lorem ipsum
+                                                    dolor sit amet consectetur
+                                                    adipisicing
+                                                    elit. A nesciunt perferendis ab deleniti dolorem ad aperiam
+                                                    similique, sit eaque modi.
+                                                </p>
+                                                <div class="icon-comments">
+                                                    <span style="font-size: 14px;" class="pr-2"><i
+                                                            class="pr-1 fas fa-reply"></i>Reply</span>
+                                                    <span style="font-size: 14px;">Share<i
+                                                            class="pl-1 fas fa-share"></i></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="pb-4">
+                                        <div class="d-flex justify-content-start">
+                                            <div class="fl-1 pr-2">
+                                                <img style="width: 60px;"
+                                                    src="https://a.disquscdn.com/1631826434/images/noavatar92.png"
+                                                    alt="">
+                                            </div>
+                                            <div class="fl-1">
+                                                <span style="font-size:11px">Bdfg 9 months ago</span>
+                                                <p style="font-size: 14px;margin-bottom: 0 !important;">Lorem ipsum
+                                                    dolor sit amet consectetur
+                                                    adipisicing
+                                                    elit. A nesciunt perferendis ab deleniti dolorem ad aperiam
+                                                    similique, sit eaque modi.
+                                                </p>
+                                                <div class="icon-comments">
+                                                    <span style="font-size: 14px;" class="pr-2"><i
+                                                            class="pr-1 fas fa-reply"></i>Reply</span>
+                                                    <span style="font-size: 14px;">Share<i
+                                                            class="pl-1 fas fa-share"></i></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="pb-4">
+                                        <div class="d-flex justify-content-start">
+                                            <div class="fl-1 pr-2">
+                                                <img style="width: 60px;"
+                                                    src="https://a.disquscdn.com/1631826434/images/noavatar92.png"
+                                                    alt="">
+                                            </div>
+                                            <div class="fl-1">
+                                                <span style="font-size:11px">Apodcx 9 months ago</span>
+                                                <p style="font-size: 14px;margin-bottom: 0 !important;">Lorem ipsum
+                                                    dolor sit amet consectetur
+                                                    adipisicing
+                                                    elit. A nesciunt perferendis ab deleniti dolorem ad aperiam
+                                                    similique, sit eaque modi.
+                                                </p>
+                                                <div class="icon-comments">
+                                                    <span style="font-size: 14px;" class="pr-2"><i
+                                                            class="pr-1 fas fa-reply"></i>Reply</span>
+                                                    <span style="font-size: 14px;">Share<i
+                                                            class="pl-1 fas fa-share"></i></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="info" id="i3">
+                            <div class="line">
+                                <p style="font-weight: bold;">Lorem</p>
+                                <p style="font-size:13px">Lorem ipsum dolor sit amet consectetur repellendus repellendus
+                                    adipisicing elit.
+                                    Voluptates ut magnam quam
+                                    voluptatibus quidem hic sed iusto repellendus ex doloribus.</p>
+                            </div>
+                            <div class="line">
+                                <p style="font-weight: bold;">Lorem</p>
+                                <p style="font-size:13px">Lorem ipsum dolor sit amet consectetur repellendus repellendus
+                                    adipisicing elit.
+                                    Voluptates ut magnam quam
+                                    voluptatibus quidem hic sed iusto repellendus ex doloribus.</p>
+                            </div>
+                            <div class="line">
+                                <p style="font-weight: bold;">Lorem</p>
+                                <p style="font-size:13px">Lorem ipsum dolor sit amet consectetur repellendus repellendus
+                                    adipisicing elit.
+                                    Voluptates ut magnam quam
+                                    voluptatibus quidem hic sed iusto repellendus ex doloribus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="background-color:#383838" class="footer mt-5">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 text-white pt-5 pb-5">
+                    <div style="border-color:#0DA2FF;border-style:solid;border-width:0px 0px 0px 3px"
+                        class="title-footer">
+                        <h6 class="pl-2">ABOUT TRAVELER</h6>
+                    </div>
+                    <div class="title-text pt-3">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eum praesentium placeat
+                            perferendis
+                            quasi modi vitae</p>
+                    </div>
+                    <div class="img-flex d-flex">
+                        <div class="image">
+                            <img style="max-width: 100%;"
+                                src="https://demo.bosathemes.com/travele/wp-content/uploads/sites/13/2021/08/travelon-img40.png"
+                                alt="">
+                        </div>
+                        <div class="image">
+                            <img style="max-width: 100%;"
+                                src="https://demo.bosathemes.com/travele/wp-content/uploads/sites/13/2021/08/img20.png"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 text-white pt-5 pb-5">
+                    <div style="border-color:#0DA2FF;border-style:solid;border-width:0px 0px 0px 3px"
+                        class="title-footer">
+                        <h6 class="pl-2">CONTACT</h6>
+                    </div>
+                    <div class="title-text pt-3">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    </div>
+                    <div class="contact-text pt-2">
+                        <p><i style="padding-right: 10px;color:#F56960" class="fas fa-phone-alt"></i>01783213329</p>
+                        <p><i style="padding-right: 10px;color:#F56960" class="fas fa-envelope"></i>ac@mail.com</p>
+                        <p><i style="padding-right: 10px;color:#F56960" class="fas fa-map-marker-alt"></i>1010 Moon ave,
+                            New York,
+                            NY</p>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 text-white pt-5 pb-5">
+                    <div style="border-color:#0DA2FF;border-style:solid;border-width:0px 0px 0px 3px"
+                        class="title-footer">
+                        <h6 class="pl-2">RECENT POSTS</h6>
+                    </div>
+                    <div class="title-text pt-3">
+                        <div style="border-color:#8787874D;border-style:solid;border-width:0px 0px 1px 0px"
+                            class="item-border">
+                            <p>
+                                <a style="text-decoration: none;color:#fff" href="">Take only memories, leave only
+                                    footprints</a>
+                            </p>
+                            <p style="font-size:13px">August 17, 2021 | No Comments</p>
+                        </div>
+                        <div style="border-color:#8787874D;border-style:solid;border-width:0px 0px 1px 0px"
+                            class="item-border pt-2">
+                            <p>
+                                <a style="text-decoration: none;color:#fff" href="">Life is a beautiful journey not a
+                                    destination</a>
+                            </p>
+                            <p style="font-size:13px">August 17, 2021 | No Comments</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 text-white pt-5 pb-5">
+                    <div style="border-color:#0DA2FF;border-style:solid;border-width:0px 0px 0px 3px"
+                        class="title-footer">
+                        <h6 class="pl-2">SUBSCRIBE US</h6>
+                    </div>
+                    <div class="title-text pt-3">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <div class="form-group">
+                            <input type="text" name="" id="" class="form-control" placeholder="Your Email"
+                                aria-describedby="helpId">
+                        </div>
+                        <a style="width: 100%;" class="btn btn-danger" href="">Subscribe Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-info bg-dark pt-3 pb-3">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <ul>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Term & Conditions</a></li>
+                        <li><a href="">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="http://remtsoy.com/tf_templates/traveler/demo_v1_7/img/logo-invert.png" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <ul>
+                        <li><a href="">Copyright © 2021. All rights reserved.</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="ht tps://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script>
+        $('.item-click').click(function () {
+            $('.info').hide();
+            var d = $(this).data('s');
+            $(d).show(800);
+        })
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script src="../Plugin/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <script>
+        $("a#single_image").fancybox();
+        $(".iframe").fancybox();
+    </script>
+
+</body>
+
+</html>

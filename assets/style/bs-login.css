@@ -1,0 +1,54 @@
+.login{
+    position: relative;
+    height:450px;
+}
+.card{
+    width: 400px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.card-header{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    font-size: 50px;
+    margin-top: -50px;
+}
+.icon i{
+    color:black;
+    cursor: pointer;
+}
+
+.d-flex span{
+    width: 50px;
+    background-color:#dc3545;
+}
+.d-flex span i{
+    padding-left: 14px;
+}
+.form-check-input{
+    width: 17px;
+    height: 17px;
+}
+a:hover{
+    text-decoration: none;
+}
+.text-muted{
+    color:#dc3545 !important;
+}
+small{
+    font-style: italic;
+    font-size: 13px;
+}
+.number{
+    position: absolute;
+    top:-3px;
+    right:-3px;
+    font-size:15px;
+    border-radius:50%;
+    background-color:rgb(253, 216, 53);
+    padding:0 5px;
+  }
